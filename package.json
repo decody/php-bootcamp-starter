@@ -1,0 +1,30 @@
+{
+  "name": "php-bootcamp",
+  "version": "1.0.0",
+  "description": "PHP bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "watch": "semon -p **/*.php -e php",
+    "serve": "cd LoginAndBoard/app && gulp connect-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pronist/php-bootcamp.git"
+  },
+  "keywords": [
+    "php",
+    "bootcamp"
+  ],
+  "author": "Mansu Jeong<pronist@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pronist/php-bootcamp/issues"
+  },
+  "homepage": "https://github.com/pronist/php-bootcamp#readme",
+  "devDependencies": {
+    "semon": "^1.0.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-connect-php7": "^1.0.1"
+  }
+}
