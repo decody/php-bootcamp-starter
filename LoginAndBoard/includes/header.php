@@ -1,8 +1,6 @@
 <!DOCTYPE html>
  
 <?php 
-    require_once(__DIR__."/../lib/db.php"); 
-    
     // 세션을 시작합니다.
     session_start();
 ?>

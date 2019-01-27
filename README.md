@@ -9,60 +9,55 @@
 * Variables: 3강 - 변수
 * If: 4강 - if ~ else if ~ else
 * SwitchCase: 5강 - switch ~ case
-* -: 6강 - Practice 1
-* ForAndWhile: 7강 - for, while, do ~ while
-* Array: 8강 - 배열
-* Type: 9강 - 자료형
-* Function: 10강 - 함수
-* Scope: 11강 - 변수 스코프와 정적변수
-* -: 12강 - Practice 2
-* Const: 13강 - 매직상수, 상수
-* References: 14강 - 참조
-* Include: 15강 - include, require
+* ForAndWhile: 6강 - for, while, do ~ while
+* Array: 7강 - 배열
+* Type: 8강 - 자료형
+* Function: 9강 - 함수
+* Scope: 10강 - 변수 스코프와 정적변수
+* Const: 11강 - 매직상수, 상수
+* References: 12강 - 참조
+* Include: 13강 - include, require
 
 ## 기초이론
 
-* Http: 16강 - HTTP
-
-## 내장함수
-
-* cURL: 17강 - cURL
-* -: 18강 - Practice 3
-* File: 19강 - 파일 시스템
-* CookieAndSession: 20강 - 쿠키와 세션
-
-## 디버깅
-
-* Debug: 21강 - 디버깅
+* -: 14강 - HTTP
 
 ## 웹사이트 구축
 
-* HtmlTemplate: 22강 - HTML 템플릿
-* Form: 23강 - 폼
-* -: 24강 - Practice 4
+* HtmlTemplate: 15강 - HTML 템플릿
+* Form: 16강 - 폼
+* CookieAndSession: 17강 - 쿠키와 세션
+
+## 내장함수
+
+* File: 18강 - 파일 시스템
+* Http: 19강 - cURL
+
+## 디버깅
+
+* -: 20강 - 디버깅
 
 ## 로그인 및 게시판
 
-* -: 25강 - 프로젝트 개요
-* LoginAndBoard/app/auth/register*.php: 26강 - 회원가입
-* LoginAndBoard/app/auth/login*.php: 27강 - 로그인
-* LoginAndBoard/app/auth/logout.php: 28강 - 로그아웃
-* LoginAndBoard/app/board/write*.php: 29강 - 게시판 쓰기
-* LoginAndBoard/app/board/read.php: 30강 - 게시판 읽기
-* LoginAndBoard/app/index.php: 31강 - 게시판 목록
+* -: 21강 - 프로젝트 개요
+* LoginAndBoard/app/auth/register*.php: 22강 - 회원가입
+* LoginAndBoard/app/auth/log*.php: 23강 - 로그인과 로그아웃
+* LoginAndBoard/app/board/write*.php: 24강 - 게시판 쓰기
+* LoginAndBoard/app/board/read.php: 25강 - 게시판 읽기
+* LoginAndBoard/app/index.php: 26강 - 게시판 목록
 
 ## 보안
 
-* -: 32강 - 보안취약점
+* -: 27강 - 보안취약점
 
 ## 성능
 
-* Cache: 33강 - 캐싱
+* Cache: 28강 - 캐싱
 
 ## 부록
 
-* -: 34강 - PHP CLI(명령행 인터페이스)
-* PHP.ini: 35강 - php.ini
+* Constructs: 29강 - 언어구조
+* PHP.ini: 30강 - php.ini
 
 # 개발 및 테스트
 

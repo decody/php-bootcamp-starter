@@ -1,7 +1,5 @@
 <?php
 
-require_once("../lib/db.php");
-
 session_start();
 
 // 로그인을 체크해야합니다.
@@ -14,18 +12,21 @@ if($_SESSION['user']):
     $content = filter_input(INPUT_POST, 'content', FILTER_SANITIZE_SPECIAL_CHARS);
 
     if($title && $content):
-        $sql = "INSERT INTO posts(user_id, title, content) 
-            VALUES(
-                {$_SESSION['user']['id']}, 
-                '$title', 
-                '$content'
-            )";
-
-        if($result = mysqli_query($conn, $sql)):
-            mysqli_free_result($result);
+        $filename = __DIR__. "/../../storage/posts.csv";
+        if(file_exists($filename)):
+            $fh = fopen($filename, "a+");
+            /**
+             * 게시판 번호를 쓰기 위함입니다.
+             * 모든 라인을 다 읽어야 하므로 파일이 커지면 느려집니다.
+             */
+            fputcsv($fh, [ 
+                count(file($filename, FILE_SKIP_EMPTY_LINES))+1
+                , $_SESSION['user']['id']
+                , $title
+                , $content 
+            ]);
+            fclose($fh);
         endif;
-
-        mysqli_close($conn);
 
         // 홈으로 리다이렉트합니다.
         header("HTTP/1.1 302 Redirect");

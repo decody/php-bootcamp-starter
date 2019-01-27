@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pronist/php-bootcamp.git"
+    "url": "git+https://github.com/pronist/php-bootcamp-starter.git"
   },
   "keywords": [
     "php",
@@ -18,9 +18,9 @@
   "author": "Mansu Jeong<pronist@naver.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pronist/php-bootcamp/issues"
+    "url": "https://github.com/pronist/php-bootcamp-starter/issues"
   },
-  "homepage": "https://github.com/pronist/php-bootcamp#readme",
+  "homepage": "https://github.com/pronist/php-bootcamp-starter#readme",
   "devDependencies": {
     "semon": "^1.0.3",
     "browser-sync": "^2.26.3",
