@@ -17,7 +17,7 @@
 * Const: 11강 - 매직상수, 상수
 * References: 12강 - 참조
 * Include: 13강 - include, require
-* -: 14강 - 언어구조
+* Constructs: 14강 - 언어구조
 
 ## 기초이론
 
@@ -38,7 +38,7 @@
 
 * Security: 21강 - 웹 보안
 * Cache: 22강 - 캐싱
-* -: 23강 - 디버깅
+* Debug: 23강 - 디버깅
 * PHP.ini: 24강 - php.ini
 
 ## 로그인과 게시판

