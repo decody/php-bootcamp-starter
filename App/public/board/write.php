@@ -13,6 +13,7 @@
                 <label>Content</label>
                 <textarea name="content"></textarea>
             </div>
+            <input type="hidden" name="csrf_token" value="<?=token();?>">
             <button class="ui button" type="submit">Submit</button>
         </form>
     </div>

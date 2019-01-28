@@ -1,9 +1,8 @@
+<?php 
+    require_once(__DIR__."/../config/Providers.php"); 
+?>
 <!DOCTYPE html>
  
-<?php 
-    // 세션을 시작합니다.
-    session_start();
-?>
 <html lang="ko">
     <head>
         <meta charset="utf-8">

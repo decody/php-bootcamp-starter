@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "semon -p **/*.php -e php",
-    "serve": "cd LoginAndBoard/app && gulp connect-sync"
+    "serve": "cd App/public && gulp connect-sync"
   },
   "repository": {
     "type": "git",

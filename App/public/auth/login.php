@@ -13,6 +13,7 @@
                 <label>Password</label>
                 <input type="password" name="password" placeholder="Password">
             </div>
+            <input type="hidden" name="csrf_token" value="<?=token();?>">
             <button class="ui button" type="submit">Login</button>
         </form>
     </div>
