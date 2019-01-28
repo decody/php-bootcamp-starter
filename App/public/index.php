@@ -7,13 +7,15 @@
     <div id="post_wrapper" style="margin-top: 50px;">
     <?php
         foreach($posts = getPosts() as $row):
+            $content = mb_substr($row['content'], 0, 180);
+
 echo <<<HTML
     <div class="ui items">
         <div class="item" style="margin-top: 35px;">
             <div class="content">
                 <a class="header" href="/board/read.php?id={$row['id']}">$row[title]</a>
             <div class="description">
-                <p>$row[content]</p>
+                <p>$content</p>
             </div>
         </div>
     </div>
