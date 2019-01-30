@@ -51,8 +51,8 @@
 ### 게시판
 
 * App/public/board/write*.php: 27강 - 게시판 쓰기
-* App/public/board/read.php: 28강 - 게시판 읽기
-* App/public/index.php: 29강 - 게시판 목록
+* App/public/index.php: 28강 - 게시판 목록
+* App/public/board/read.php: 29강 - 게시판 읽기
 
 ### 다듬질
 
@@ -61,7 +61,7 @@
 # 개발 및 테스트
 
 * 로그인과 게시판 개발서버를 시작할 때 별도로 ```php -S localhost:80``` 를 사용하여 시작할 필요가 없습니다. ```npm run serve``` 를 사용하면 자동으로 변화를 감지하여 브라우저를 새로고침 해주는 **라이브 서버**를 시작할 수 있습니다.
-* **라이브 서버**는 ```localhost:8000``` 에서 php 서버를 시작하고 ```localhost:3000``` 에서 동작합니다. 브라우저가 자동으로 열리지 않는다면 라이브 서버를 켜고 ```localhost:3000``` 로 접속해보세요.
+* **라이브 서버**는 ```localhost:8000``` 를 프록시, ```localhost:3000``` 에서 동작합니다. 브라우저가 자동으로 열리지 않는다면 라이브 서버를 켜고 ```localhost:3000``` 로 접속해보세요.
 * ```node``` 와 ```npm``` 이 설치되어 있어야 합니다.
 
 ```bash
@@ -87,4 +87,4 @@ npm install
 
 # 질문 및 문의사항
 
-https://github.com/pronist/php-bootcamp-stater/issues
+https://github.com/pronist/php-bootcamp-starter/issues

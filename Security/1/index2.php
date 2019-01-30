@@ -2,4 +2,4 @@
 
 $content = $_POST['text'];
 
-echo $content;
+echo htmlentities($content);

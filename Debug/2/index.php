@@ -4,7 +4,7 @@
  * PHP debug
  * 
  * -- phpdbg index.php
- * -- break 17
+ * -- break 16
  * -- run
  * -- watch $number
  * -- break del 0
@@ -12,9 +12,9 @@
  */
 $number = 1;
 
-for($i=0;$i<10;$i++) {
+for($i=1;$i<10;$i++) {
     $number *= $i;
-    // var_dump($number)
+    // var_dump($number);
 }
 // 0
 echo $number;
